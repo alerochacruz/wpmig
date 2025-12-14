@@ -97,7 +97,14 @@ El proyecto incluye un `Vagrantfile` que permite levantar un entorno de pruebas 
   - Provisionado con **stack LAMP** mediante `install_lamp.sh`
   - Autenticación SSH habilitada para usuarios `root` y `vagrant` (contraseña: `vagrant` + llaves en `demo_keys/`)
 
-> **Importante:** Ambos servidores están configurados en **red pública (bridge)**. Es necesario ajusta la interfaz (`wlo1`) y las direcciones IP según el sistema anfitrión antes de levantar el entorno.
+### Requisitos de virtualización
+
+Para levantar el entorno de pruebas es necesario contar con las siguientes aplicaciones, disponibles para macOS, Windows y Linux:
+
+- [Vagrant](https://www.vagrantup.com/)
+- [VirtualBox](https://www.virtualbox.org/)
+
+> **Nota:** Ambos servidores están configurados en **red pública (bridge)**. Es necesario **ajustar la interfaz de red** (por ejemplo, `wlo1`) y las direcciones IP según el sistema anfitrión antes de iniciar el entorno.
 
 ### Levantar el entorno
 
