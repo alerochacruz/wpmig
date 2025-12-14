@@ -1,0 +1,14 @@
+# Archivos de Python compilados en bytecode
+__pycache__/
+
+# Entorno virtual
+.venv/
+
+# Vagrant
+.vagrant/
+
+# Archivo de registro (log)
+wp_migration.log
+
+# Archivos de configuración de entorno
+.env
