@@ -136,6 +136,12 @@ vagrant ssh genesis   # Servidor de origen
 vagrant ssh exodus    # Servidor de destino
 ```
 
+### Detener el entorno
+
+```text
+vagrant halt
+```
+
 ### Destruir el entorno
 
 ```text
